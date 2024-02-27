@@ -1,1 +1,16 @@
-{{CODIGO INICIAL}}
+def pangrama(frase):
+    # Seu código aqui
+    return None
+
+
+print("Example:")
+print(pangrama("gazeta publica hoje: breve anuncio de faxina na quermesse"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert pangrama("gazeta publica hoje: breve anuncio de faxina na quermesse") == 'S'
+assert pangrama("esta frase nao usa todas as letras, estao faltando algumas") == 'N'
+assert pangrama("abcdefghijlmnopqrstuvxz") == 'S'
+
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

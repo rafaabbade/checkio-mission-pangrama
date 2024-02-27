@@ -1,18 +1,18 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Um pangrama é uma frase que inclui todas as letras do alfabeto pelo menos uma vez. Para este problema, consideraremos uma versão simplificada do alfabeto português, excluindo as letras k, w, y e ignorando acentos. Sua tarefa é determinar se uma dada frase é um pangrama, levando em conta apenas letras minúsculas, espaços, vírgulas e dois pontos.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Uma string C, representando a frase a ser analisada.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma string contendo um único caractere: 'S' se a frase for um pangrama, ou 'N' caso contrário.
 </p>
 
 
@@ -28,7 +28,9 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    pangrama("gazeta publica hoje: breve anuncio de faxina na quermesse") >> 'S'
+pangrama("esta frase nao usa todas as letras, estao faltando algumas") >> 'N'
+pangrama("abcdefghijlmnopqrstuvxz") >> 'S'
 </pre>
 {% endif %}
 </div>

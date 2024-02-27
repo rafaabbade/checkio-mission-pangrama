@@ -10,6 +10,17 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {{TESTES}}
+            {
+        "input": "gazeta publica hoje: breve anuncio de faxina na quermesse",
+        "answer": "S"
+    },
+    {
+        "input": "esta frase nao usa todas as letras, estao faltando algumas",
+        "answer": "N"
+    },
+    {
+        "input": "abcdefghijlmnopqrstuvxz",
+        "answer": "S"
+    }
     ]
 }
