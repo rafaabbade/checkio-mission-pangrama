@@ -11,15 +11,15 @@ Each test is a dict with
 TESTS = {
     "Basics": [
             {
-        "input": "gazeta publica hoje: breve anuncio de faxina na quermesse",
+        "input": ["gazeta publica hoje: breve anuncio de faxina na quermesse"],
         "answer": "S"
     },
     {
-        "input": "esta frase nao usa todas as letras, estao faltando algumas",
+        "input": ["esta frase nao usa todas as letras, estao faltando algumas"],
         "answer": "N"
     },
     {
-        "input": "abcdefghijlmnopqrstuvxz",
+        "input": ["abcdefghijlmnopqrstuvxz"],
         "answer": "S"
     }
     ]
